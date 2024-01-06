@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 19.5px;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+#login{
+    height: 570px;
+    width: 420px;
+    background-color: rgb(69, 68, 68);
+}
+
+#you{
+    text-align: center;
+}
+#input{
+    text-align: center;
+}
+
+a{
+    color: #a5c31e;
+}
+p{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 4px;
+    font-size: 19.87px;
+}
+canvas{
+    border: 1px solid black;
+}
